@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha - Minimax</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Jogo da Velha - Minimax</h1>
+    </header>
+    
+    <main>
+        <table>
+            <tr>
+                <td class="cell" id="0"></td>
+                <td class="cell" id="1"></td>
+                <td class="cell" id="2"></td>
+            </tr>
+            <tr>
+                <td class="cell" id="3"></td>
+                <td class="cell" id="4"></td>
+                <td class="cell" id="5"></td>
+            </tr>
+            <tr>
+                <td class="cell" id="6"></td>
+                <td class="cell" id="7"></td>
+                <td class="cell" id="8"></td>
+            </tr>
+        </table>
+        <div class="fimDeJogo">
+            <div class="text"></div>
+            <button id="btn-reiniciar" onclick="iniciarJogo()">Tentar novamente</button>
+        </div>
+    </main>
+
+    <footer>
+        <h2>Trabalho de Fundamentos de Inteligência Artifical</h2>
+        <p>Ministrado pelo <a class="link" href="https://www.arieldias.com.br" target="_blank">Prof. Ariel da Silva Dias</a></p>
+        <p class="gg"><a class="link" href="https://www.gabrielgianni.com" target="_blank">Gabriel Gianni Souza Oliveira</a> - 2088708-6</p>
+        <p>Universidade Cruzeiro do Sul - campus Paulista</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
